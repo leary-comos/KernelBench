@@ -156,4 +156,3 @@ def test_do_bench_simple_smoke():
     times = do_bench(fn, warmup=2, rep=rep, return_mode="all")
     assert isinstance(times, list)
     assert len(times) == rep
-
