@@ -420,4 +420,3 @@ def test_precision_check_respects_forbidden():
 
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])
-

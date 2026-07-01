@@ -120,4 +120,3 @@ def test_fastp():
     p = 0.5
 
     assert math.isclose(fastp(is_correct, baseline_speed, actual_speed, n, p), 0, abs_tol=abs_tol)
-
